@@ -18,7 +18,9 @@
 *  Green = Hit, Red = Miss
 
 ## Screenshot of Visualizations:
-
+![](/images/COD_SuccessHMfig1.png)
+![](/images/COD_BTT_fig3.png)
+![](/images/CODBTTfig2.png)
 
 
 
