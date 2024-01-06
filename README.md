@@ -1,33 +1,12 @@
-# Call of Duty Warzone: Projectile Weapons Successful Hits with Moving Targets  
-* Created a program simulation written in Python that will generate a recommendation given a set of parameters
-
+# Call of Duty Warzone: Analyzing Projectile Weapons' Success Against Moving Targets in Call of Duty Warzone
+* Prior to Call of Duty Warzone 2019 all weapons were hitscan, instantly hitting targets when aimed accurately.
+* However, since Call of Duty 2019, players must factor in bullet travel time and potentially lead their targets before firing.
+* Created data visualizaions to determine the likelihood of hiting a moving target by simply aiming at centermass at various ranges and bullet velocitys. 
 
 ## Function Objectives
-* Specify if its normal (Gaussian) or uniform distribution
-* Randomly generate demand instances
-* Compute the profit for a given demand and store it in a list
-* Compute mean profit
-* Identify the optimal level of production
-
-## Screenshot of Graph Generated
-
-
-
-
-
-
-
-
-
-
-
-## Summary
-* Created a set of analyses and data visualizations that support or disprove the following statements made by Subway Restaurant leadership:
-  * Head of Customer Service: “Our ratings are gradually improving, and we will soon reach 4.5/5.”
-  * Head of Store Operations: “Sandwiches are a tricky business. All sandwich chains suffer from poor customer ratings.”
-  * Head of Social Media: “The goal of 4.5/5 is unreasonable for national chains like us. Only small, local, and boutique restaurants can achieve such high ratings.”
-  * Chief Data Scientist: “It is well known that customers make the effort to give a rating only when they are either extremely angry or absolutely delighted with the service. So online ratings are not reliable.”
-* Used matplotlib, seaborn, and pandas to generate line charts, bar charts, scatterplots, group by dataframes, and linear regression analyses
+* Determine projectile travel times to target at various dinstances
+* Various base weapons have specific projectle velocitys
+* If a player is running perpendicular to your position, will you hit your target by simply aiming at center mass 
 
 ## Procedure
 * Loaded Yelp datasets: reviews.csv and restaurants.csv 
@@ -43,3 +22,5 @@
 * Plotted a bar chart comapring the number of reviews submitted for each star rating
 * Plotted a line chart highlighting the number of unique Subway reviewers over the years
 * Plotted a bar chart with error bars, comparing the mean and standard deviation of ratings for Subway in each state
+
+## Screenshot of Graphs Generated
