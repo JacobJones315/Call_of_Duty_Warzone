@@ -1,11 +1,11 @@
 # Call of Duty Warzone: Analyzing Projectile Weapons' Success Against Moving Targets in Call of Duty Warzone
-* Prior to Call of Duty Warzone 2019 all weapons were hitscan, instantly hitting targets when aimed accurately.
-* However, since Call of Duty 2019, players must factor in bullet travel time and potentially lead their targets before firing.
-* Created data visualizaions to determine the likelihood of hiting a moving target by simply aiming at centermass at various ranges and bullet velocitys. 
+* Before the release of Call of Duty Warzone in 2019, all weapons operated on a hitscan system, ensuring instant hits on accurately aimed targets.
+* Subsequent to Call of Duty 2019, a significant change occurred where players are now required to consider bullet travel time and potentially lead their targets before pulling the trigger.
+* I conducted data visualizations to assess the probability of hitting a moving target by simply aiming at center mass across different ranges and weapon bullet velocities.
 
 ## Objectives
-* Calculate projectile travel times for various distances based on different projectile velocities.
-* Assess the probability of hitting a target moving perpendicular to the observer by aiming at its center mass.
+* Compute the travel times for projectiles over varied distances using different weapon projectile velocities.
+* Evaluate the likelihood of hitting a target in lateral motion, perpendicular to the observer, by aiming at its center mass.
 
 ## Parameters
 *  Consider the average player sprint speed (7.5 m/s) and player width (0.6 meters at center mass).
