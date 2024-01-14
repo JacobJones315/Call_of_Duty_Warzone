@@ -14,7 +14,7 @@
 * Generate arrays for custom ranges and projectile velocities.
 * Utilize nested loops to populate a dataframe with projectile travel times for each custom range and velocity
 * Create a second dataframe to analyze how far the player can move while sprinting after firing the projectile.
-* Created a heat map of the second dataframe to showcase if the projectile will hit its desired target when aiming at the center mass of the target, while target is moving perpendicular to observer.
+* Created a heat map of the second dataframe to showcase if the projectile will hit its desired target when aiming at the center mass of the target, while target is moving lateral to observer.
 *  Green = Hit, Red = Miss
 
 ## Screenshot of Visualizations:
